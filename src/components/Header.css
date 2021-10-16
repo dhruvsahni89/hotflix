@@ -1,0 +1,28 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+.header {
+width:100%;
+cursor:pointer;
+position:fixed;
+display: flex;
+justify-content: center;
+text-transform: uppercase;
+background: #2F4F4F;
+/* background: rgb(63,82,214);
+background: linear-gradient(90deg, rgba(63,82,214,1) 0%, rgba(0,0,0,1) 0%, rgba(5,2,233,1) 100%); */
+
+font-family: 'Arvo', serif;
+font-size: 5vw;
+padding-bottom: 15px;
+box-shadow: 0px 1px 5px black;
+color:white;
+z-index: 100;
+}
+@media (max-width:1000px){
+    .header{
+        padding-top: 15px;
+        font-size: 6.4vw;
+    }
+}
