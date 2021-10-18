@@ -1,9 +1,13 @@
+*{
+  scroll-behavior: smooth;
+}
+
 .app{
   min-height:100vh;
   
   /* background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(21,22,233,1) 72%, rgba(0,212,255,1) 100%); */
-background: black;
+background: rgb(8, 8, 156);
 color: white;
 padding-top: 130px;
 padding-bottom: 70px;
@@ -12,5 +16,20 @@ padding-bottom: 70px;
 @media(max-width:700px){
   .app{
     padding-top: 70px;
+  }
+}
+.pageTitle {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+}
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
   }
 }

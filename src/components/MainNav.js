@@ -19,10 +19,10 @@ export default function SimpleBottomNavigation() {
   }, [value,history])
 
   return (
-    <Box sx={{ width: 1550 ,
+    <Box sx={{ width: '100%' ,
     position:"fixed",
     bottom:0,
-    backgroundcolor:"#2F4F4F" ,
+    backgroundColor: "#2d313a",
     
     zindex:100}}>
       <BottomNavigation
