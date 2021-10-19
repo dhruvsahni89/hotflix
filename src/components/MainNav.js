@@ -22,7 +22,7 @@ export default function SimpleBottomNavigation() {
     <Box sx={{ width: '100%' ,
     position:"fixed",
     bottom:0,
-    backgroundColor: "#2d313a",
+    backgroundColor: '#2d313a',
     
     zindex:100}}>
       <BottomNavigation
@@ -35,7 +35,7 @@ export default function SimpleBottomNavigation() {
         <BottomNavigationAction label="Trending" icon={< WhatshotIcon/>} />
         <BottomNavigationAction label="Movies" icon={<MovieIcon />} />
         <BottomNavigationAction label="TV Series" icon={<TvIcon />} />
-        <BottomNavigationAction label="Search" icon={<SearchIcon />} />
+       
       </BottomNavigation>
     </Box>
   );
