@@ -2,7 +2,7 @@ import  React,{useEffect} from 'react';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-
+import './dhruv.css'
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import MovieIcon from '@mui/icons-material/Movie';
 import SearchIcon from '@mui/icons-material/Search';
@@ -30,7 +30,8 @@ export default function SimpleBottomNavigation() {
         value={value}
         onChange={(event, newValue) => {
           setValue(newValue);
-        }}
+        }} 
+        className="base"
       >
         <BottomNavigationAction label="Trending" icon={< WhatshotIcon/>} />
         <BottomNavigationAction label="Movies" icon={<MovieIcon />} />
