@@ -19,7 +19,7 @@ Hotflix using react , TMDB api
 ***
   
   
-   ## feed 
+   ## movies
 <img src="ss/movie.png">
 
 ***
